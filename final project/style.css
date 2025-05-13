@@ -1,0 +1,45 @@
+.card {
+    min-height: 400px;
+    max-height: 400px;
+
+    min-width: 200px;
+    max-width: 200px;
+
+    border: 1px #828282 solid;
+    border-radius: 24px;
+
+    overflow: hidden;
+    transition: all;
+    transition-duration: 500ms;
+
+    box-shadow: 4px 4px 20px rgb(182, 182, 182);
+
+    &:hover {
+        box-shadow: 4px 4px 20px rgb(194, 194, 194);
+    }
+}
+
+.card_content {
+    padding: 12px;
+}
+
+.card__img {
+    width: 100%;
+    height: 200px;
+
+    overflow: hidden;
+}
+
+.section__cards {
+    display: flex;
+    max-width: 1024px;
+
+    /* dava kontejner uprostred */ 
+    margin-left: auto;
+    margin-right: auto;
+
+    /* dava deti uprostred kontejneru */
+    justify-content: center;
+
+    /* mezera mezi deti */
+}
